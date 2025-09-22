@@ -7,7 +7,7 @@ By default it uses the Biox Systems website (`https://www.bioxsystems.com`).
 
 ```bash
 # 1) Create and activate a virtual environment (recommended)
-python3 -m venv .venv
+python -m venv .venv
 
 # Windows:
 .venv\Scripts\activate
@@ -47,7 +47,7 @@ Notes:
    - macOS/Linux:
 
      ```
-     python -m venv .venv
+     python3 -m venv .venv
      source .venv/bin/activate
      ```
 3. **Install the library**
@@ -66,30 +66,3 @@ Notes:
 
 5. A PNG file appears in `./output/` and a preview window pops up.
 
----
-
-## What to include in your Word document submission
-
-- **Screenshot** of the running app’s output window (the QR image preview titled “QR Code”) and/or the generated PNG opened from `output/`.
-- **Code snippet(s)** (copy `main.py`).
-- **Link to your GitHub repository** containing:
-  - `main.py`
-  - `requirements.txt`
-  - `manifest.json`
-  - `README.md`
-  - `.gitignore`
-  - (Optional) the `output/` folder with one example PNG.
-
----
-
-## Suggested GitHub workflow
-
-```bash
-# From the project root (qr-biox/)
-git init
-git add .
-git commit -m "Assignment 2: QR code generator for Biox Systems"
-git branch -M main
-git remote add origin https://github.com/<your-username>/qr-biox.git
-git push -u origin main
-```
