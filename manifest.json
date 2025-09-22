@@ -1,0 +1,9 @@
+{
+  "name": "qr-biox",
+  "version": "1.0.0",
+  "description": "CLI tool to generate a QR code for Biox Systems (or any URL).",
+  "author": "Prakash Tamang",
+  "entry_point": "python main.py",
+  "dependencies": ["qrcode[pil]==7.4.2"],
+  "outputs": ["output/qr_YYYYMMDD-HHMMSS.png"]
+}
