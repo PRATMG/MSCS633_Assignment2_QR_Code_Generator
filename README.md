@@ -7,7 +7,7 @@ By default it uses the Biox Systems website (`https://www.bioxsystems.com`).
 
 ```bash
 # 1) Create and activate a virtual environment (recommended)
-python -m venv .venv
+python3 -m venv .venv
 
 # Windows:
 .venv\Scripts\activate
